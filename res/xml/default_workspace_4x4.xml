@@ -17,7 +17,7 @@
 <favorites xmlns:launcher="http://schemas.android.com/apk/res-auto/com.android.launcher3">
 
     <!-- Hotseat (We use the screen as the position of the item in the hotseat) -->
-    <!-- Dialer, Messaging, Chrome, Camera -->
+    <!-- Dialer, Messaging, Browser, Camera -->
     <resolve
         launcher:container="-101"
         launcher:screen="0"
@@ -64,7 +64,7 @@
         launcher:className="com.google.android.googlequicksearchbox.SearchWidgetProvider"
         launcher:screen="0"
         launcher:x="0"
-        launcher:y="3"
+        launcher:y="2"
         launcher:spanX="4"
         launcher:spanY="1" />
 
@@ -82,35 +82,35 @@
         launcher:className="com.android.alarmclock.DigitalAppWidgetProvider"
         launcher:screen="0"
         launcher:x="0"
-        launcher:y="1"
+        launcher:y="0"
         launcher:spanX="4"
         launcher:spanY="2" />
 
     <favorite
         launcher:screen="0"
         launcher:x="3"
-        launcher:y="4"
+        launcher:y="3"
         launcher:packageName="com.android.vending"
         launcher:className="com.android.vending.AssetBrowserActivity"/>
 
     <favorite
         launcher:screen="0"
         launcher:x="2"
-        launcher:y="4"
+        launcher:y="3"
         launcher:packageName="com.google.android.youtube"
         launcher:className="com.google.android.youtube.app.honeycomb.Shell$HomeActivity"/>
 
     <favorite
         launcher:screen="0"
         launcher:x="1"
-        launcher:y="4"
+        launcher:y="3"
         launcher:packageName="com.google.android.gm"
         launcher:className="com.google.android.gm.ConversationListActivityGmail"/>
 
     <favorite
         launcher:screen="0"
         launcher:x="0"
-        launcher:y="4"
+        launcher:y="3"
         launcher:packageName="com.google.android.apps.photos"
         launcher:className="com.google.android.apps.photos.home.HomeActivity"/>
 
